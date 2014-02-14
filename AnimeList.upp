@@ -1,0 +1,14 @@
+uses
+	CtrlLib;
+
+file
+	AnimeList.h,
+	AnimeList.xml,
+	AnimeList.iml,
+	AnimeList.rc,
+	main.cpp,
+	AnimeList.lay;
+
+mainconfig
+	"" = "GUI";
+

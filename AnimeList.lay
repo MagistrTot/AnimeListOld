@@ -1,0 +1,85 @@
+LAYOUT(AnimeListLayout, 828, 476)
+	ITEM(MenuBar, menu, HSizePosZ(4, 284).TopPosZ(0, 20))
+	ITEM(TabCtrl, animeList, HSizePosZ(252, 176).TopPosZ(24, 188))
+	ITEM(StatusBar, status, HSizePosZ(4, 4).BottomPosZ(1, 19))
+	ITEM(ArrayCtrl, listName, HSizePosZ(4, 176).VSizePosZ(212, 20))
+	ITEM(TabCtrl, parTab, LeftPosZ(4, 248).TopPosZ(24, 188))
+	ITEM(ArrayCtrl, seriesDate, RightPosZ(4, 172).VSizePosZ(24, 20))
+	ITEM(DropDate, dateSeries, RightPosZ(4, 104).TopPosZ(4, 19))
+	ITEM(Button, moved, SetLabel(t_("Moved")).RightPosZ(112, 60).TopPosZ(4, 16))
+END_LAYOUT
+
+LAYOUT(InfoLayout, 388, 140)
+	ITEM(Label, dv___0, SetLabel(t_("Russian:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(28, 21))
+	ITEM(Label, nameRus, LeftPosZ(76, 308).TopPosZ(28, 21))
+	ITEM(Label, dv___2, SetLabel(t_("Name:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(4, 21))
+	ITEM(Label, name, LeftPosZ(76, 308).TopPosZ(4, 21))
+	ITEM(Label, complete, LeftPosZ(288, 32).TopPosZ(52, 21))
+	ITEM(Button, viewPlus, LeftPosZ(132, 16).TopPosZ(104, 16))
+	ITEM(Button, viewMinus, LeftPosZ(76, 16).TopPosZ(104, 16))
+	ITEM(Label, dv___7, SetLabel(t_("Episodes:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(76, 21))
+	ITEM(Label, episodes, LeftPosZ(96, 32).TopPosZ(76, 21))
+	ITEM(Label, dv___9, SetLabel(t_("Complete:")).SetAlign(ALIGN_RIGHT).LeftPosZ(232, 52).TopPosZ(52, 21))
+	ITEM(Label, dv___10, SetLabel(t_("Date Release:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(52, 21))
+	ITEM(Label, dateRelease, LeftPosZ(76, 152).TopPosZ(52, 21))
+	ITEM(Label, dv___12, SetLabel(t_("Views:")).SetAlign(ALIGN_RIGHT).LeftPosZ(20, 53).TopPosZ(100, 21))
+	ITEM(Label, views, SetAlign(ALIGN_CENTER).LeftPosZ(96, 33).TopPosZ(100, 21))
+	ITEM(Button, modify, SetLabel(t_("Modify")).LeftPosZ(336, 48).TopPosZ(100, 20))
+END_LAYOUT
+
+LAYOUT(TestInfoLayout, 388, 140)
+	ITEM(EditString, testStr, LeftPosZ(4, 380).TopPosZ(4, 24))
+	ITEM(ArrayCtrl, testList, LeftPosZ(4, 364).TopPosZ(32, 100))
+END_LAYOUT
+
+LAYOUT(AddLayout, 388, 124)
+	ITEM(Label, dv___0, SetLabel(t_("Russian:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(28, 21))
+	ITEM(Label, dv___1, SetLabel(t_("Episodes:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(76, 21))
+	ITEM(Label, dv___2, SetLabel(t_("Complete:")).SetAlign(ALIGN_RIGHT).LeftPosZ(20, 52).TopPosZ(100, 21))
+	ITEM(Label, dv___3, SetLabel(t_("Date Release:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(52, 21))
+	ITEM(EditString, nameRus, LeftPosZ(76, 308).TopPosZ(28, 20))
+	ITEM(Label, dv___5, SetLabel(t_("Name:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(4, 21))
+	ITEM(EditString, name, LeftPosZ(76, 308).TopPosZ(4, 20))
+	ITEM(DropDate, dateRelease, LeftPosZ(76, 104).TopPosZ(52, 20))
+	ITEM(EditInt, episodes, Min(0).LeftPosZ(76, 48).TopPosZ(76, 20))
+	ITEM(DropList, complete, LeftPosZ(76, 56).TopPosZ(100, 20))
+	ITEM(Button, add, SetLabel(t_("Add")).LeftPosZ(336, 48).TopPosZ(100, 20))
+END_LAYOUT
+
+LAYOUT(ModifyLayout, 388, 264)
+	ITEM(Label, dv___0, SetLabel(t_("Russian:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(28, 21))
+	ITEM(Label, dv___1, SetLabel(t_("Views:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(104, 21))
+	ITEM(Label, dv___2, SetLabel(t_("Episodes:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(76, 21))
+	ITEM(Label, dv___3, SetLabel(t_("Complete:")).SetAlign(ALIGN_RIGHT).LeftPosZ(232, 52).TopPosZ(52, 21))
+	ITEM(Label, dv___4, SetLabel(t_("Date Release:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(52, 21))
+	ITEM(EditString, nameRus, LeftPosZ(76, 308).TopPosZ(28, 20))
+	ITEM(Label, dv___6, SetLabel(t_("Name:")).SetAlign(ALIGN_RIGHT).LeftPosZ(4, 68).TopPosZ(4, 21))
+	ITEM(EditString, name, LeftPosZ(76, 308).TopPosZ(4, 20))
+	ITEM(DropDate, dateRelease, LeftPosZ(76, 104).TopPosZ(52, 20))
+	ITEM(EditInt, views, LeftPosZ(76, 48).TopPosZ(104, 20))
+	ITEM(EditInt, episodes, LeftPosZ(76, 48).TopPosZ(76, 20))
+	ITEM(DropList, complete, LeftPosZ(288, 56).TopPosZ(52, 20))
+	ITEM(Button, modify, SetLabel(t_("Modify")).LeftPosZ(272, 48).TopPosZ(104, 20))
+	ITEM(Button, cancel, SetLabel(t_("Cancel")).LeftPosZ(328, 48).TopPosZ(104, 20))
+	ITEM(EditString, seriesRelease, LeftPosZ(4, 380).TopPosZ(156, 104))
+	ITEM(Label, dv___15, SetLabel(t_("Date Release Series (Ep - Date;) (e.g. 12 - 12/12/2012;)")).LeftPosZ(4, 380).TopPosZ(132, 21))
+END_LAYOUT
+
+LAYOUT(MyAppLayout, 184, 68)
+	ITEM(Button, ok, SetLabel(t_("OK")).LeftPosZ(20, 56).TopPosZ(44, 15))
+	ITEM(Button, cancel, SetLabel(t_("CANCEL")).LeftPosZ(104, 56).TopPosZ(44, 15))
+END_LAYOUT
+
+LAYOUT(CalendarLayout, 236, 156)
+	ITEM(Calendar, calendar, LeftPosZ(0, 236).TopPosZ(0, 156))
+END_LAYOUT
+
+LAYOUT(ParametersLayout, 244, 164)
+	ITEM(DropList, looking, LeftPosZ(124, 100).TopPosZ(48, 19))
+	ITEM(DropList, years, LeftPosZ(20, 100).TopPosZ(24, 19))
+	ITEM(DropList, seasons, LeftPosZ(124, 100).TopPosZ(24, 19))
+	ITEM(Option, checkSave, SetLabel(t_("Name Select Copy")).LeftPosZ(68, 108).TopPosZ(144, 16))
+	ITEM(DropList, complete, LeftPosZ(20, 100).TopPosZ(48, 19))
+	ITEM(Button, reset, SetLabel(t_("Reset Sorts")).LeftPosZ(156, 68).TopPosZ(4, 16))
+END_LAYOUT
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE ListView>
+<ListView>
+	<item>
+		<complete>No</complete><name>1234</name><episodes>1234</episodes><views>175</views><Release>02/07/2014</Release>
+	</item><item>
+		<complete>No</complete><name>234123</name><episodes>1</episodes><views>1</views><Release>01/21/2014</Release>
+	</item><item>
+		<complete>No</complete><name>123</name><episodes>6</episodes><views>3</views><Release>05/07/2014</Release>
+	</item>
+</ListView>

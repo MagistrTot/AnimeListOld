@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE ListView>
+<ListView>
+	<item>
+		<complete>Yes</complete><name>anime</name><episodes>14</episodes><views>3</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>Yes</complete><name>anime2</name><episodes>12</episodes><views>0</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>No</complete><name>anime3</name><episodes>23</episodes><views>5</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>Yes</complete><name>133</name><episodes>123</episodes><views>0</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>Yes</complete><name></name><episodes>123</episodes><views>0</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>Yes</complete><name></name><episodes></episodes><views>0</views><Release>01/11/2014</Release>
+	</item><item>
+		<complete>No</complete><name></name><episodes></episodes><views>0</views><Release></Release>
+	</item>
+</ListView>
